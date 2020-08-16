@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/basic"
+            android:text="Terima Kasih"
+            android:textColor="#852222"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:fontFamily="@font/basic"
+            android:text="Anda telah melakukan absensi"
+            android:textColor="#132137"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:gravity="center"
+            android:fontFamily="@font/basic"
+            android:textColor="@color/nliveo_black"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAMPAI KETEMU ESOK HARI YA..." />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

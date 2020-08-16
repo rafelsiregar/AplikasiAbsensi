@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/date_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date_info"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textColor="#222E4A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/basic"
+            android:text="Selamat Datang di Aplikasi"
+            android:textColor="#DD2525"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/basic"
+            android:text="Simulasi Absensi"
+            android:textColor="#3B437E"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/button_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/advent_pro_medium"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonmasuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="#4E1818"
+            android:fontFamily="@font/basic"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ABSEN MASUK"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonpulang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@color/nliveo_blue_colorPrimaryDark"
+            android:fontFamily="@font/basic"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ABSEN PULANG"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#4B7043"
+            android:fontFamily="@font/basic"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF" />
+</LinearLayout>
