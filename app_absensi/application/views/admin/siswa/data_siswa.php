@@ -37,7 +37,7 @@
                     <div class="list-group">
                     <p class="list-group-item active" style="text-align:center;background-color:black;border-color:black">
                         ADMIN</p>
-                        <a href="dashboard" class="list-group-item list-group-item-dark">HOME</a>
+                        <a href="<?php echo base_url("admin/dashboard")?>" class="list-group-item list-group-item-dark">HOME</a>
                         <a href="<?php echo base_url("admin/data_absensi")?>" class="list-group-item list-group-item-dark">RIWAYAT ABSEN</a>
                         <a href="<?php echo base_url("admin/data_user")?>" class="list-group-item list-group-item-dark">DAFTAR USER</a>
                     </div>
