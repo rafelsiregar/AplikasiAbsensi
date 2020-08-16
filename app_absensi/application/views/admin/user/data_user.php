@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a href="dashboard" class="nav-link">HOME</a>
+                    <a href="<?php echo base_url("admin/dashboard")?>" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
                     <a href="<?php echo base_url("admin/data_siswa")?>" class="nav-link">INFO SISWA</a>
