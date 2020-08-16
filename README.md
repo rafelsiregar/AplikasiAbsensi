@@ -10,3 +10,5 @@ dalam aplikasi Android.
 (https://www.youtube.com/watch?v=JUrtPECPw8s)
 3. RubyPedia
 (http://www.rubypedia.com)
+
+**NB : Untuk menggunakan database dalam source code ini, silahkan ketik "CREATE DATABASE absensi;" kemudian "USE absensi;" agar dapat diimpor ke PHPMyAdmin.**
